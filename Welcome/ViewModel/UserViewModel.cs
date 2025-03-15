@@ -31,5 +31,15 @@ namespace Welcome.ViewModel
 			get { return _user.Role; }
 			set { _user.Role = value; }
 		}
+		public string Email
+		{
+			get { return _user.Email; }
+			set { _user.Email = value; }
+		}
+		public string FacultyNumber
+		{
+			get { return _user.FacultyNumber; }
+			set { _user.FacultyNumber = value; }
+		}
 	}
 }

@@ -12,11 +12,15 @@ namespace Welcome.Model
         public string Name { get; set; }
 		public string Password { get; set; }
 		public UserRolesEnum Role { get; set; }
-		public User(string name, string password, UserRolesEnum role)
+		public string Email { get; set; }
+		public string FacultyNumber { get; set; }
+		public User(string name, string password, UserRolesEnum role, string email, string facultyNumber)
 		{
 			Name = name;
 			Password = password;
 			Role = role;
+			Email = email;
+			FacultyNumber = facultyNumber;
 		}
     }
 }
