@@ -23,5 +23,18 @@ namespace Welcome.View
 			Console.WriteLine($"Email: {_viewModel.Email}");
             Console.WriteLine($"Faculty number: {_viewModel.FacultyNumber}");
 		}
+
+		public void Display2()
+		{
+			StringBuilder sb = new StringBuilder();
+			sb.AppendLine("===== USER DETAILS =====");
+			sb.AppendLine($"-> Name: {_viewModel.Name}");
+			sb.AppendLine($"-> Role: {_viewModel.Role}");
+			sb.AppendLine($"-> Email: {_viewModel.Email}");
+			sb.AppendLine($"-> Faculty #: {_viewModel.FacultyNumber}");
+			sb.AppendLine("=========================");
+
+            Console.WriteLine(sb);
+        }
 	}
 }

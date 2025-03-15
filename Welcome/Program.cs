@@ -14,6 +14,7 @@ namespace Welcome
 			UserView userView = new UserView(userViewModel);
 
 			userView.Display();
+			userView.Display2();
 		}
 	}
 }
