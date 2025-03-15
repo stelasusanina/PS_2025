@@ -36,5 +36,10 @@ namespace Welcome.View
 
             Console.WriteLine(sb);
         }
+
+		public void DisplayError(string error)
+		{
+			throw new Exception(error);
+		}
 	}
 }

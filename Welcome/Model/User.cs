@@ -14,6 +14,7 @@ namespace Welcome.Model
 		public UserRolesEnum Role { get; set; }
 		public string Email { get; set; }
 		public string FacultyNumber { get; set; }
+		public User() { }
 		public User(string name, string password, UserRolesEnum role, string email, string facultyNumber)
 		{
 			Name = name;
